@@ -69,53 +69,7 @@ Reconstructed and built strictly according to the **StudyFlow Product Requiremen
 | **Celebrations** | Canvas Confetti | Gamification for task completions & timer goals |
 | **Quality** | ESLint 10 (Flat Config) | Static analysis & React Hooks linting |
 
----
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Node.js (v18+)
-- npm (v9+)
 
-### Installation
-```bash
-# Clone or navigate to the workspace
-cd "Study Flow"
 
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-The app will start at `http://localhost:5173`.
-
-### Production Build & Preview
-```bash
-# Lint code
-npm run lint
-
-# Build production bundle into dist/
-npm run build
-
-# Preview build locally
-npm run preview
-```
-
----
-
-## 🗺️ Information Architecture & Routes
-
-| Route | Description | Access |
-|---|---|---|
-| `/` | Landing page with hero, features, testimonials, and demo CTA | Public |
-| `/login` | Sign-in page with 1-click Demo Student login | Public |
-| `/register` | Account creation page | Public |
-| `/dashboard` | Main workspace overview with tasks, metrics & charts | Authenticated |
-| `/tasks` | Task list, filtering, and Subject management | Authenticated |
-| `/sessions` | Interactive Pomodoro timer & session history | Authenticated |
-| `/analytics` | Recharts daily/weekly charts & subject distribution | Authenticated |
-| `/planner` | 7-day schedule grid, weekly target & streak badges | Authenticated |
-| `/settings` | Profile, appearance, theme switcher & data backup | Authenticated |
-| `*` | 404 Not Found error screen with return-to-home actions | Public |
